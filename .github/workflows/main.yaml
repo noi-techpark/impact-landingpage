@@ -11,9 +11,9 @@ env:
 jobs:
   test:
     runs-on: ubuntu-24.04
-    # steps:
-    #   - name: Checkout source code
-    #     uses: actions/checkout@v2
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
 
   deploy:
     runs-on: ubuntu-24.04
